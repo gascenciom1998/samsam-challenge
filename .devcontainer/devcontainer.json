@@ -1,0 +1,19 @@
+{
+    "name": "AidKit",
+    "image": "mcr.microsoft.com/vscode/devcontainers/typescript-node",
+  
+    "settings": {
+      "terminal.integrated.profiles.linux": {
+        "bash": {
+          "path": "/bin/bash",
+        }
+      },
+      "terminal.integrated.defaultProfile.linux": "bash"
+    },
+  
+    "extensions": [],
+    "forwardPorts": [3000],
+    "postCreateCommand": "yarn install",
+  
+    "remoteUser": "node"
+  }
