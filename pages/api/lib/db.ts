@@ -1,9 +1,5 @@
-import sqlite3 from 'sqlite3'
-import { open } from 'sqlite'
+import Database from "better-sqlite3";
 
-export async function getDB() {
-    return await open({
-      filename: 'database.db',
-      driver: sqlite3.Database
-    })
+export function getDB() {
+  return new Database("database.db");
 }
