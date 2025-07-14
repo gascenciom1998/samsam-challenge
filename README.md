@@ -45,18 +45,3 @@ Intro: https://nextjs.org/docs/getting-started
 Pages: https://nextjs.org/docs/basic-features/pages
 Images: https://nextjs.org/docs/basic-features/image-optimization
 Image Properties: https://nextjs.org/docs/api-reference/next/image
-
-## The Challenges
-
-0. Explore the codebase and make sure you understand how it works. If you have any questions, ask them!
-1. What other properties do products have do we have that are not on display? Which one should we display? Add a column to display it.
-2. Using NextJS features, can you improve the image loading experience on the page? You might want to look here [Next.js Image documentation](https://nextjs.org/docs/basic-features/image-optimization) or here [image properties](https://nextjs.org/docs/api-reference/next/image). 
-4. We wish to provide users with the ability to add/delete products to their cart. Propose an approach to implementing this feature and after discussing it, implement it.
-
-## Bonus
-5. We wish to let users "check out" their cart.
-6. The database now has a description. We wish to extend the code to display this description on the product page.
-7. Take a moment to read about [routing in NextJS](https://nextjs.org/docs/routing/introduction) and the [next router](https://nextjs.org/docs/api-reference/next/router). In light of that, we wish to have an admin page where internal users can add/delete/edit new products.
-8. We wish to provide users the ability to filter products by category.
-9. We wish to provide users the ability to search for products by name.
-10. Propose further extensions!
