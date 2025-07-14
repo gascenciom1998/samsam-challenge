@@ -1,4 +1,4 @@
-# Centrito Challenge
+# Samsam Challenge
 
 This is a toy project that we use at Centrito for technical interviews. Currently it includes a very simple main page that lists (fake) products and their prices. Through the course of the interview, we'll add features to this project.
 
