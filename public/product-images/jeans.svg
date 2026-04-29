@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Jeans">
+  <rect width="160" height="160" rx="20" fill="#dbeafe"/>
+  <path d="M56 24h48l10 112H86l-6-70-6 70H46L56 24Z" fill="#2563eb"/>
+  <path d="M58 44h44M80 24v112" stroke="#1e3a8a" stroke-width="6" stroke-linecap="round"/>
+  <text x="80" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#1e3a8a">Jeans</text>
+</svg>

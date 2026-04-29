@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Dress">
+  <rect width="160" height="160" rx="20" fill="#fce7f3"/>
+  <path d="M64 26h32l10 42 26 68H28l26-68 10-42Z" fill="#ec4899"/>
+  <path d="M64 26c6 12 26 12 32 0M54 68h52" stroke="#9d174d" stroke-width="6" stroke-linecap="round"/>
+  <text x="80" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#9d174d">Dress</text>
+</svg>

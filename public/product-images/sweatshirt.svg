@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Sweatshirt">
+  <rect width="160" height="160" rx="20" fill="#e2e8f0"/>
+  <path d="M48 50 66 30h28l18 20 22 20-18 22-12-10v54H56V82L44 92 26 70l22-20Z" fill="#64748b"/>
+  <path d="M66 30c4 16 24 16 28 0M56 104h48" stroke="#334155" stroke-width="6" stroke-linecap="round"/>
+  <text x="80" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#334155">Sweatshirt</text>
+</svg>

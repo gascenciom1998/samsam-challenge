@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="160" viewBox="0 0 160 160" role="img" aria-label="Pants">
+  <rect width="160" height="160" rx="20" fill="#e0e7ff"/>
+  <path d="M54 26h52l8 110H88l-8-66-8 66H46L54 26Z" fill="#6366f1"/>
+  <path d="M56 48h48M80 26v110" stroke="#3730a3" stroke-width="6" stroke-linecap="round"/>
+  <text x="80" y="149" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" font-weight="700" fill="#3730a3">Pants</text>
+</svg>
