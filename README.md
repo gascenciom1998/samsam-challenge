@@ -8,7 +8,7 @@ This project is written in TypeScript using Next.js. Next.js is a React framewor
 
 For styling, we're just using traditional CSS. You likely do not have to worry about CSS throughout the challenge.
 
-Product data is served from a small in-memory store that is seeded when the server starts. Product images live in `public/product-images`. That keeps the challenge focused on the Next.js app instead of requiring a local database or hosted image setup.
+Product data is served from a small in-memory store that is seeded when the server starts. Products include names, descriptions, prices, category arrays, stock counts, and local images from `public/product-images`. That keeps the challenge focused on the Next.js app instead of requiring a local database or hosted image setup.
 
 ## Developing
 

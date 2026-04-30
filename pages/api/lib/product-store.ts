@@ -1,5 +1,5 @@
-import type { Product } from "./product";
-import { PRODUCT_SEEDS } from "./products";
+import type { Product } from '../../../types/product';
+import { PRODUCT_SEEDS } from './products';
 
 const getProductEntry = (product: Product): [number, Product] => [
 	product.id,
@@ -7,7 +7,7 @@ const getProductEntry = (product: Product): [number, Product] => [
 ];
 
 const productsById = new Map<number, Product>(
-	PRODUCT_SEEDS.map(getProductEntry),
+  PRODUCT_SEEDS.map(getProductEntry)
 );
 
 export const getProducts = (): Product[] => Array.from(productsById.values());
