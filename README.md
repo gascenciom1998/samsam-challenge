@@ -8,7 +8,7 @@ This project is written in TypeScript using Next.js. Next.js is a React framewor
 
 For styling, we're just using traditional CSS. You likely do not have to worry about CSS throughout the challenge.
 
-Product data is served from a small local TypeScript seed file. Product images live in `public/product-images`. That keeps the challenge focused on the Next.js app instead of requiring a local database or hosted image setup.
+Product data is served from a small in-memory store that is seeded when the server starts. Product images live in `public/product-images`. That keeps the challenge focused on the Next.js app instead of requiring a local database or hosted image setup.
 
 ## Developing
 
@@ -27,7 +27,7 @@ Useful commands:
 - `npm start` runs the production build after `npm run build`.
 - `npm run lint` checks the project with Next.js linting.
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/all](http://localhost:3000/api/all). This endpoint can be edited in `pages/api/all.ts`, and the seed product data lives in `pages/api/lib/products.ts`.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/all](http://localhost:3000/api/all). This endpoint can be edited in `pages/api/all.ts`. The seed product data lives in `pages/api/lib/products.ts`, and the in-memory product store lives in `pages/api/lib/product-store.ts`.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 

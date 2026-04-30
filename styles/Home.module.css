@@ -27,6 +27,7 @@
   border: 1px solid black;
   padding-left: 0;
   width: 420px;
+  margin: 0;
 }
 
 .product {
@@ -67,4 +68,10 @@
 
 .price {
   white-space: nowrap;
+}
+
+.category {
+  margin-top: 4px;
+  color: #777;
+  font-size: 0.8rem;
 }
