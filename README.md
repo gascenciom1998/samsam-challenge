@@ -1,6 +1,6 @@
 # Shop.com
 
-This is a toy shop project for technical interviews. Currently it includes a simple main page that lists fake products, prices, and local product images. Through the course of the interview, we'll add features to this project.
+This is a toy shop project for technical interviews. Currently it includes a simple main page that lists fake products, prices, local product images, and stubbed shopping interactions. Through the course of the interview, we'll add features to this project.
 
 ## The Stack
 
@@ -9,6 +9,8 @@ This project is written in TypeScript using Next.js. Next.js is a React framewor
 For styling, we're just using traditional CSS. You likely do not have to worry about CSS throughout the challenge.
 
 Product data is served from a small in-memory store that is seeded when the server starts. Products include names, descriptions, prices, category arrays, stock counts, and local images from `public/product-images`. That keeps the challenge focused on the Next.js app instead of requiring a local database or hosted image setup.
+
+The cart, search, and category filter UI are intentionally non-functional frontend stubs. They do not call backend endpoints, filter products, or persist cart state. This gives candidates a visible UI surface while keeping the interview focused on designing and implementing the backend APIs.
 
 ## Developing
 
@@ -28,6 +30,13 @@ Useful commands:
 - `npm run lint` checks the project with Next.js linting.
 
 [API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/all](http://localhost:3000/api/all). This endpoint can be edited in `pages/api/all.ts`. The seed product data lives in `pages/api/lib/products.ts`, and the in-memory product store lives in `pages/api/lib/product-store.ts`.
+
+Potential backend interview tasks:
+
+- Replace frontend search/filter stubs with product query APIs.
+- Replace frontend cart state with cart API routes.
+- Add validation around stock, quantities, and product IDs.
+- Add tests for product filtering, cart totals, and API behavior.
 
 The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
